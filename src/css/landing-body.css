@@ -138,6 +138,10 @@
   border-radius: 6px;
 }
 
+#event_img img{
+  width: 600px;
+}
+
 .cast_green {
   color: rgb(74, 246, 134);
 }
