@@ -19,7 +19,7 @@ const LandingBody = () => {
       ></Background>
       <div id="landing_title">
         <lable id="landing_title_right1">Get Your Certificate</lable> <br />
-        <lable id="landing_title_right2">Get relief from your daily stress of earning MAR certificates.</lable>
+        <lable id="landing_title_right2">ONE for ALL; ALL for ONE</lable>
       </div>
       
       <div className="landing_intro" id="about">
@@ -28,7 +28,8 @@ const LandingBody = () => {
         <div className="LI_content">
           <div className="LI_image"></div>
           <div className="LI_context">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+          Join our community and work as an intern. In stead of running hither and thither for internships. Join us as we bring to you the scope of getting and working with different organizations all at one place.
+No need of paying bulk amounts just to earn few certificates. We cordially take the charge to reduce your stress and bring opportunities to you.
           </div>
         </div>
       </div>
@@ -44,7 +45,7 @@ const LandingBody = () => {
               </div>
               <div id="event_context">
                 <a
-                  href="https://forms.gle/SdruZcjSyuAASMKc6"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScsKARGwLuDcpEPvPMh3quBIlZ7i6kUHbIRxSzQ6PxFuH-SEg/viewform"
                   id="register_button"
                   target="_blank"
                   rel="noopener noreferrer"

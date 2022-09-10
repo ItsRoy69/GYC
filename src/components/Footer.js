@@ -12,7 +12,7 @@ function FooterLanding(props) {
               <h1>Wanna talk to us?</h1>
             </div>
             <div class="write-to-us">
-              <form id="contact-us">
+              <form id="contact-us" action="mailto:getyourcertificate.co@gmail.com" >
                 <input
                   type="email"
                   id="email"
@@ -33,7 +33,7 @@ function FooterLanding(props) {
             </div>
             <div class="links">
               <ul class="footer-links flex-container">
-                <li>
+                {/* <li>
                   <a
                     href="https://www.linkedin.com/company"
                     target="_blank"
@@ -59,19 +59,19 @@ function FooterLanding(props) {
                   >
                     <i class="fab fa-github"></i>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
-                    href="https://twitter.com"
+                    href="mailto:getyourcertificate.co@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="fab fa-twitter"></i>
+                    <i class='fas fa-envelope'></i>
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com"
+                    href="https://www.instagram.com/getyourcertificate.co"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -80,20 +80,15 @@ function FooterLanding(props) {
                 </li>
               </ul>
             </div>
-            <div class="footer-info">
+            {/* <div class="footer-info">
               <div class="desc">
                 <div class="description1">
                   <p class="contact strong">Feel free to contact us</p>
                   <br></br>
-                  <p>Lorem Ipsum</p>
-                  <p>Lorem Ipsum</p>
-                  <p>Lorem Ipsum</p>
-                  <p>751024</p>
-                  <p>Email: Lorem Ipsum@gmail.com</p>
-                  <p>Phone: +91 Lorem Ipsum</p>
+                  <p>getyourcertificate.co@gmail.com</p>
                   <br></br>
                 </div>
-                <div>
+               <div>
                   <div class="description3">
                     <p class="guideline strong">General Guidelines</p>
                     <br></br>
@@ -108,9 +103,9 @@ function FooterLanding(props) {
                     <br></br>
                   </div>
                   
-                </div>
+                </div> 
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
